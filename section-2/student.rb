@@ -2,8 +2,8 @@ class Student
 
   attr_accessor :name, :grade
   def initialize(name, grade)
-    @name = name
-    @grade = grade
+    @name = name;
+    @grade = grade;
   end
 
   def to_s
@@ -12,5 +12,5 @@ class Student
   
 end
 
-bilal = Student.new("Bilal", "A")
+bilal = Student.new("Bilal", "B")
 puts bilal
